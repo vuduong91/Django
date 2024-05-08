@@ -1,0 +1,7 @@
+<form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h5>Changed name: {{form.nameProduct}}</h5>
+        <h5>Changed name: {{form.name}}</h5>
+        <h5>Changed name: {{form.cost}}</h5>
+        <input type="submit" value="Add to Cart">
+</form>
